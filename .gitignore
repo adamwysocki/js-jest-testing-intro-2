@@ -1,1 +1,14 @@
+codeship.aes
+aws_creds.env
+github.env
 node_modules
+static/styles
+.next
+.env
+npm-debug.log
+yarn-error.log
+.idea
+.DS_Store
+.eslintcache
+.vscode/settings.json
+coverage
