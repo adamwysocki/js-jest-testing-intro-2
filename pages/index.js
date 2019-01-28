@@ -41,7 +41,7 @@ class Index extends React.Component {
      */
     getGreeting = () => {
         if(this.state.espanol) {
-            return "Hola";
+            return "¡Hola";
         } else {
             return "Hello";
         }
