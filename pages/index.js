@@ -41,7 +41,7 @@ class Index extends React.Component {
      */
     getGreeting = () => {
         if(this.state.espanol) {
-            return "Hola";
+            return "¡Hola";
         } else {
             return "Hello";
         }
@@ -76,7 +76,7 @@ class Index extends React.Component {
                     </div>
                     <div className="form-check">
                         <input type="checkbox" className="form-check-input" id="espanol" onChange={(event) => this.onChange(event)} checked={this.state.espanol}/>
-                        <label className="form-check-label" htmlFor="showNameCheck">español</label>
+                        <label className="form-check-label" htmlFor="espanol">español</label>
                     </div>
                 </form>        
             </div>
