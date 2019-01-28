@@ -5,8 +5,8 @@ A super basic Next.js/React app with Jest snapshot and unit tests for a Lunch an
 ## Installation
 
 ```
-git clone https://github.com/adamwysocki/js-jest-testing-intro.git
-cd js-jest-testing-intro
+git clone https://github.com/adamwysocki/js-jest-testing-intro-2.git
+cd js-jest-testing-intro-2
 npm install (or yarn)
 ```
 
@@ -21,4 +21,3 @@ npm run test
 ```
 
 ## Slides to go with repo
-[Javascript & React Testing with Jest](../master/slides/Javascript%20%26%20React%20Testing%20with%20Jest.pdf)
