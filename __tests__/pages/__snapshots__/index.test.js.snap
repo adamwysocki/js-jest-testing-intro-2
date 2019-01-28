@@ -40,7 +40,7 @@ exports[`Integration tests should match a snapshot 1`] = `
       />
       <label
         className="form-check-label"
-        htmlFor="showNameCheck"
+        htmlFor="espanol"
       >
         español
       </label>
