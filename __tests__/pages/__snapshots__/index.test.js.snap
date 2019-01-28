@@ -1,9 +1,50 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should match a snapshot 1`] = `
-<h1>
-  Hello 
-  Adam Wysocki
-  !
-</h1>
+exports[`Integration tests should match a snapshot 1`] = `
+<div
+  className="container"
+  style={
+    Object {
+      "marginTop": "150px",
+    }
+  }
+>
+  <h1>
+    Hello!
+  </h1>
+  <form
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <input
+        aria-describedby="nameHelp"
+        className="form-control"
+        id="name"
+        onChange={[Function]}
+        placeholder="Enter name ..."
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-check"
+    >
+      <input
+        checked={false}
+        className="form-check-input"
+        id="espanol"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <label
+        className="form-check-label"
+        htmlFor="showNameCheck"
+      >
+        español
+      </label>
+    </div>
+  </form>
+</div>
 `;
