@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Enzyme tests Should change to spanish when language is toggled to true 1`] = `
+exports[`Enzyme tests Should change to spanish when language checkbox is toggled to true 1`] = `
 <Index>
   <div
     className="container"
@@ -110,4 +110,112 @@ exports[`Enzyme tests Should render correctly with no props 1`] = `
     </div>
   </form>
 </div>
+`;
+
+exports[`Enzyme tests Should update the welcome header when a name is typed 1`] = `
+<Index>
+  <div
+    className="container"
+    style={
+      Object {
+        "marginTop": "150px",
+      }
+    }
+  >
+    <SideEffect(Head)>
+      <Head />
+    </SideEffect(Head)>
+    <h1>
+      Hello Adam Wysocki!
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <input
+          aria-describedby="nameHelp"
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Enter name ..."
+          type="text"
+          value="adam wysocki"
+        />
+      </div>
+      <div
+        className="form-check"
+      >
+        <input
+          checked={false}
+          className="form-check-input"
+          id="espanol"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          htmlFor="showNameCheck"
+        >
+          español
+        </label>
+      </div>
+    </form>
+  </div>
+</Index>
+`;
+
+exports[`Enzyme tests Should update the welcome header when a name is typed and language checkbox is toggled to true 1`] = `
+<Index>
+  <div
+    className="container"
+    style={
+      Object {
+        "marginTop": "150px",
+      }
+    }
+  >
+    <SideEffect(Head)>
+      <Head />
+    </SideEffect(Head)>
+    <h1>
+      Hola Adam Wysocki!
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <input
+          aria-describedby="nameHelp"
+          className="form-control"
+          id="name"
+          onChange={[Function]}
+          placeholder="Ingrese su nombre ..."
+          type="text"
+          value="adam wysocki"
+        />
+      </div>
+      <div
+        className="form-check"
+      >
+        <input
+          checked={true}
+          className="form-check-input"
+          id="espanol"
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <label
+          className="form-check-label"
+          htmlFor="showNameCheck"
+        >
+          español
+        </label>
+      </div>
+    </form>
+  </div>
+</Index>
 `;

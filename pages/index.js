@@ -24,9 +24,9 @@ class Index extends React.Component {
      * @param {object} event - HTML InputEvent object
      */
     onChange = (event) => {
-        const name = event.target.id;
-        const value = event.target.value;
-        const type = event.target.type;
+        const name = event.currentTarget.id;
+        const value = event.currentTarget.value;
+        const type = event.currentTarget.type;
 
         if(type === "text") {
             this.setState({[name] : value});
