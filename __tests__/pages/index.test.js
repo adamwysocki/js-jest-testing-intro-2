@@ -11,4 +11,3 @@ describe("Integration tests", () => {
         expect(tree).toMatchSnapshot();
     });
 });
-
