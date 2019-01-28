@@ -1,5 +1,5 @@
 {
-  "name": "js-jest-testing-intro",
+  "name": "js-jest-testing-intro-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adamwysocki/js-jest-testing-intro.git"
+    "url": "git+https://github.com/adamwysocki/js-jest-testing-intro-2.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/adamwysocki/js-jest-testing-intro/issues"
+    "url": "https://github.com/adamwysocki/js-jest-testing-intro-2/issues"
   },
-  "homepage": "https://github.com/adamwysocki/js-jest-testing-intro#readme",
+  "homepage": "https://github.com/adamwysocki/js-jest-testing-intro-2#readme",
   "dependencies": {
     "next": "^7.0.2",
     "react": "^16.7.0",

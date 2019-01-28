@@ -1,6 +1,6 @@
-# Javascript & React Testing w/ Jest
+# Javascript & React Testing w/ Jest Part 2
 
-A super basic Next.js/React app with Jest snapshot and unit tests for a Lunch and Learn chat at Leafly.
+A super basic Next.js/React app with Jest snapshot and unit tests for a Lunch and Learn chat at Leafly. Part 2 focuses in Enzyme and react-testing-library
 
 ## Installation
 
