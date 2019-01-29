@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RTL tests should change the language to spanish when the checkbox is checked 1`] = `
+<div>
+  <div
+    class="container"
+    style="margin-top: 150px;"
+  >
+    <h1>
+      ¡Hola!
+    </h1>
+    <form>
+      <div
+        class="form-group"
+      >
+        <input
+          aria-describedby="nameHelp"
+          class="form-control"
+          id="name"
+          placeholder="Ingrese su nombre ..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-check"
+      >
+        <input
+          class="form-check-input"
+          id="espanol"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="espanol"
+        >
+          español
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`RTL tests should render and match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+    style="margin-top: 150px;"
+  >
+    <h1>
+      Hello!
+    </h1>
+    <form>
+      <div
+        class="form-group"
+      >
+        <input
+          aria-describedby="nameHelp"
+          class="form-control"
+          id="name"
+          placeholder="Enter name ..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="form-check"
+      >
+        <input
+          class="form-check-input"
+          id="espanol"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="espanol"
+        >
+          español
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`RTL tests should update the welcome message when something is typed 1`] = `
+<div>
+  <div
+    class="container"
+    style="margin-top: 150px;"
+  >
+    <h1>
+      Hello Testy Timothy!
+    </h1>
+    <form>
+      <div
+        class="form-group"
+      >
+        <input
+          aria-describedby="nameHelp"
+          class="form-control"
+          id="name"
+          placeholder="Enter name ..."
+          type="text"
+          value="testy timothy"
+        />
+      </div>
+      <div
+        class="form-check"
+      >
+        <input
+          class="form-check-input"
+          id="espanol"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="espanol"
+        >
+          español
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`RTL tests should update the welcome message when something is typed and the checkbox is checked 1`] = `
+<div>
+  <div
+    class="container"
+    style="margin-top: 150px;"
+  >
+    <h1>
+      ¡Hola Testy Timothy!
+    </h1>
+    <form>
+      <div
+        class="form-group"
+      >
+        <input
+          aria-describedby="nameHelp"
+          class="form-control"
+          id="name"
+          placeholder="Ingrese su nombre ..."
+          type="text"
+          value="testy timothy"
+        />
+      </div>
+      <div
+        class="form-check"
+      >
+        <input
+          class="form-check-input"
+          id="espanol"
+          type="checkbox"
+        />
+        <label
+          class="form-check-label"
+          for="espanol"
+        >
+          español
+        </label>
+      </div>
+    </form>
+  </div>
+</div>
+`;
