@@ -14,7 +14,7 @@ exports[`Enzyme tests Should change to spanish when language checkbox is toggled
       <Head />
     </SideEffect(Head)>
     <h1>
-      Hola!
+      ¡Hola!
     </h1>
     <form
       onSubmit={[Function]}
@@ -44,7 +44,7 @@ exports[`Enzyme tests Should change to spanish when language checkbox is toggled
         />
         <label
           className="form-check-label"
-          htmlFor="showNameCheck"
+          htmlFor="espanol"
         >
           español
         </label>
@@ -103,7 +103,7 @@ exports[`Enzyme tests Should render correctly with no props 1`] = `
       />
       <label
         className="form-check-label"
-        htmlFor="showNameCheck"
+        htmlFor="espanol"
       >
         español
       </label>
@@ -156,7 +156,7 @@ exports[`Enzyme tests Should update the welcome header when a name is typed 1`] 
         />
         <label
           className="form-check-label"
-          htmlFor="showNameCheck"
+          htmlFor="espanol"
         >
           español
         </label>
@@ -180,7 +180,7 @@ exports[`Enzyme tests Should update the welcome header when a name is typed and 
       <Head />
     </SideEffect(Head)>
     <h1>
-      Hola Adam Wysocki!
+      ¡Hola Adam Wysocki!
     </h1>
     <form
       onSubmit={[Function]}
@@ -210,7 +210,7 @@ exports[`Enzyme tests Should update the welcome header when a name is typed and 
         />
         <label
           className="form-check-label"
-          htmlFor="showNameCheck"
+          htmlFor="espanol"
         >
           español
         </label>
