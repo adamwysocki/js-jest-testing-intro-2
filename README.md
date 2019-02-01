@@ -21,3 +21,4 @@ npm run test
 ```
 
 ## Slides to go with repo
+[Javascript & React Testing with Jest 2](https://docs.google.com/presentation/d/12i3YZznSRyDUHbe8gVXykpXQ3pmXtBL6jEBDYbv-u6k/edit#slide=id.g4c8d476c8f_1_6)
