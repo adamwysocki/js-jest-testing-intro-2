@@ -1,7 +1,7 @@
 {
   "name": "js-jest-testing-intro-2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lunch and Learn - Javascript testing with React, Jest, Enzyme, React Testing Library",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -36,7 +36,11 @@
     "react-testing-library": "^5.4.4"
   },
   "jest": {
-    "snapshotSerializers": ["enzyme-to-json/serializer"],
-    "setupFiles": ["./setupTests.js"]
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "setupFiles": [
+      "./setupTests.js"
+    ]
   }
 }
